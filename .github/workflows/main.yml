@@ -12,7 +12,7 @@ jobs:
         uses: ./
         with:
           input-file: 'test/results.sarif'
-          output-file: 'N3_results.csv'
+          output-file: 'results.csv'
       - name: Upload CSV
         uses: actions/upload-artifact@v2
         with:
