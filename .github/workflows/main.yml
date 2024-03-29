@@ -12,6 +12,6 @@ jobs:
         uses: ./
         with:
           input-file: 'test/N3.sarif'
-          output-file: 'results.csv'
+          output-file: 'N3_results.csv'
       
       
