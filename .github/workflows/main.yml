@@ -11,7 +11,7 @@ jobs:
         id: sarif-to-csv
         uses: ./
         with:
-          input-file: 'test/results.sarif'
+          input-file: 'test/N3.sarif'
           output-file: 'results.csv'
       
       
